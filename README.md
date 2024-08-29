@@ -44,3 +44,16 @@ Solo de esa manera... wala, jenkins con mysql:
 
 Creo ahora podré continuar con los testings con JUNIT y MOCKITO.
 
+Ah también se tenia que crear la base de datos en la instancia, se me olvido also configurar la contraseña de la instancia local mysql.
+Significa que, en entornos de prueba se puede configurar un dump file que se autocargue de un repositorio de git, crear una bdd
+para pruebas o tener un docker separado linkeado para evitar una exportación continua y en base a eso crear el ambiente para
+los microservicios:
+
+![image](https://github.com/user-attachments/assets/2586cd1f-fd9e-4d62-8db1-ce0c9c0ca3e4)
+
+Al final va a jalar:
+![image](https://github.com/user-attachments/assets/55838d62-e135-4903-8ec2-ab1ad63569e3)
+
+![image](https://github.com/user-attachments/assets/26456bc6-a115-46e8-a184-6ef5f119b074)
+
+Ahora si, podré concluir con JUNIT, mockito y alguna otra cuestion de java que se me haya pasado
