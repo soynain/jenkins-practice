@@ -25,3 +25,22 @@ instalar el plugin de docker pa los comandos:
 
 La gracia aqui creo sera que debo anexar los test cases dentro del proyecto para que el pipeline los acondicione
 con los comandos.
+
+
+# AVANCES 28/08/2024
+
+No pude subir avance ayer debido a que me desesperé porque al hacer mvn clean install no conseguia poder arrancar
+el mendigo MYSQL en el jenkins, pensé por mi novatez que docker enlazaria mysql anfitrion a los contenedores pero no,
+busqué y busqué pero no encontraba documentación clara de como funcionaba el plugin de mysql database
+para jenkins, debido a eso descubri que en docker se puede acceder al root e instalar maria db como mysql.
+
+![image](https://github.com/user-attachments/assets/c1a5e14f-372b-41cd-ba81-129c43fb5293)
+
+Solo de esa manera... wala, jenkins con mysql:
+![image](https://github.com/user-attachments/assets/d0874a38-c68e-4ca5-8db1-b9fb979d575e)
+![image](https://github.com/user-attachments/assets/6d811ce5-fa03-4394-a6e8-a0b3335ef485)
+![image](https://github.com/user-attachments/assets/5bf9b29d-2e41-4a0c-ae0a-9516e44d8984)
+
+
+Creo ahora podré continuar con los testings con JUNIT y MOCKITO.
+
